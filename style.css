@@ -1,0 +1,41 @@
+@font-face { 
+    font-family: witcher-font; 
+    src: url(Thewitcher-jnOj.ttf); 
+}
+body {
+    background-image: url("geralt_las.gif");
+    background-size:cover;
+}
+#clock {
+    font-family: witcher-font;
+    margin-left: 8%;
+    margin-top: 20%;
+    font-size: 85px;
+    color: rgb(169, 185, 199);
+}
+.signs {
+    font-family: witcher-font;
+    font-size: 60px;
+    margin-left: 8%;
+    display: flex;
+}
+#aard {
+    color: rgb(94, 221, 253);
+    padding-right: 15px;
+}
+#yrden {
+    color: rgb(165, 65, 223);
+    padding-right: 15px;
+}
+#igni {
+    color: rgb(231, 41, 41);
+    padding-right: 15px;
+}
+#quen {
+    color: rgb(231, 228, 63);
+    padding-right: 15px;
+}
+#axii {
+    color: rgb(99, 224, 88);
+    padding-right: 15px;
+}
